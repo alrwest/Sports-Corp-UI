@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #56A1BF;
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.UI-header {
+    width: 400px;
+    height: 100px;
+    background-color: #033859;
+    box-shadow: 2px 2px 4px #121212;
+    z-index: 99;
+}
+
+.lanes-logo {
+    width: 125px;
+    height: 125px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.lanes-logo img {
+    width: 125px;
+    height: 125px;
+}
+
+.UI-background {
+    width: 400px;
+    height: 640px;
+}
+
+.UI-background img {
+    width: 400px;
+    height: 640px;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.UI-content {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+h2, h4 {
+    color: #f2f2f2;
+    font-size: 24px;
+}
+
+.launch-button {
+    width: 175px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #033859;
+    z-index: 99;
+
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.launch-button a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.UI-footer {
+    width: 400px;
+    height: 50px;
+    background-color: rgba(242, 242, 242, 0.8);
+    position: relative;
+}
+
+
+.footer-logo-container {
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.luddy-logo, .sports-corp-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.luddy-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.sports-corp-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.sports-corp-logo {
+    margin-bottom: 5px;
+}
